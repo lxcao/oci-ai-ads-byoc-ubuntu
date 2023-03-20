@@ -3,9 +3,15 @@
   "mounts": [
     "source=/Users/caolingxin/.oci,target=/root/.oci,type=bind"
   ],
-  "extensions": [
+  /*"extensions": [
     "ms-python.python"
-  ],
+  ],*/
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": ["ms-python.python"]
+    }
+  },
   "containerEnv": {
     "TEST": "test"
   }
